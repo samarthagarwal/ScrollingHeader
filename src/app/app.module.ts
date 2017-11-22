@@ -6,11 +6,13 @@ import { StatusBar } from '@ionic-native/status-bar';
 
 import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
+import { HideHeaderDirective } from '../directives/hide-header/hide-header';
 
 @NgModule({
   declarations: [
     MyApp,
-    HomePage
+    HomePage,
+    HideHeaderDirective
   ],
   imports: [
     BrowserModule,
